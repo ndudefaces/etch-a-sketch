@@ -28,8 +28,8 @@ resetButton.addEventListener('click', () => {
   let userSize = Number(prompt('What dimensions do you want for the new grid?'));
   while (userSize > 100) {
     userSize = Number(prompt('Please choose a number that is 100 or less'));
-    createGrid(userSize);
   }
+  createGrid(userSize);
 })
 
 createGrid(sizeofGrid);
