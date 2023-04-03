@@ -1,1 +1,1 @@
-# etch-a-sketch
+This is my etch-a-sketch! The main hurdles were definitely making the grid and figuring out the replacement/wrapper issues. Enjoy!
