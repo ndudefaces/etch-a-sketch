@@ -12,7 +12,7 @@ const createGrid = (amtOfGrids) => {
       gridBox.classList.add('grid-box');
       gridBox.style.width = `${widthAndHeight}px`;
       gridBox.style.height = `${widthAndHeight}px`;
-
+      // adding mouseenter listener to change background color
       gridBox.addEventListener('mouseenter', () => {
         gridBox.style.backgroundColor = 'black';
       })
